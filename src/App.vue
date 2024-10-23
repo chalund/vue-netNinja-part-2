@@ -8,10 +8,16 @@
   <button @click="back">Go Back</button>
   <button @click="forward">Go Forward</button>
   <router-view/>
+
 </template>
 
 <script>
+
+
+
 export default {
+
+
   methods: {
     redirect(){
       this.$router.push({ name: 'Home' })
